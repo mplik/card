@@ -5,6 +5,10 @@ bussines card
 
 # 🌟 Prezentacja Projektu `card`
 
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=mplik/card@github)](https://gitads.dev/v1/ad-track?source=mplik/card@github)
+
+
 ## 📋 Spis treści
 1. [Wprowadzenie](#wprowadzenie)
 2. [Funkcjonalności](#funkcjonalności)
