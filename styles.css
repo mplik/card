@@ -17,12 +17,12 @@ body {
 
 h1 {
     font-size: 24px;
-    color: #333;
+    color: #000; /* Black text */
 }
 
 p {
     font-size: 16px;
-    color: #666;
+    color: #fff; /* White text */
 }
 
 .contact-info {
