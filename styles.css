@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffa500; /* Orange background */
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #6f6e4a; /* Olive background */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
