@@ -85,6 +85,28 @@ p {
     border: 2px solid #007BFF;
 }
 
+.climate-badge-wrapper {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.climate-badge-wrapper iframe {
+    border: 0;
+    margin: 24px auto 0 auto;
+    display: block;
+    max-width: 95vw;
+    min-width: 180px;
+    width: 380px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 16px 6px;
@@ -98,5 +120,10 @@ p {
     }
     .github-profile {
         margin-top: 16px;
+    }
+    .climate-badge-wrapper iframe {
+        width: 98vw;
+        min-width: 120px;
+        max-width: 98vw;
     }
 }
