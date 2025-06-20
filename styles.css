@@ -86,25 +86,25 @@ p {
 }
 
 .climate-badge-wrapper {
-    width: 100vw;
-    max-width: 100vw;
-    margin: 0;
-    padding: 0;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    width: 100vw; /* Poprawka: szerokość kontenera na badge */
+    max-width: 100vw; /* Poprawka: maksymalna szerokość kontenera na badge */
+    margin: 0; /* Poprawka: brak marginesów */
+    padding: 0; /* Poprawka: brak paddingu */
+    background: transparent; /* Przezroczyste tło */
+    display: flex; /* Poprawka: flexbox dla kontenera na badge */
+    justify-content: center; /* Wyśrodkowanie zawartości */
+    align-items: flex-start; /* Wyśrodkowanie zawartości w pionie */
 }
 
 .climate-badge-wrapper iframe {
-    border: 0;
-    margin: 24px auto 0 auto;
-    display: block;
-    max-width: 95vw;
-    min-width: 180px;
-    width: 380px;
-    height: 38px;
-    box-sizing: border-box;
+    border: 0; /* Brak obramowania */
+    margin: 24px auto 0 auto; /* Margines górny i automatyczne marginesy boczne */
+    display: block; /* Blokowy wyświetlacz */
+    max-width: 95vw; /* Maksymalna szerokość 95% widoku */
+    min-width: 180px; /* Minimalna szerokość 180px */
+    width: 380px; /* Szerokość 380px */
+    height: 38px; /* Wysokość 38px */
+    box-sizing: border-box; /* Ustawienie box-sizing na border-box */
 }
 
 @media (max-width: 600px) {
@@ -121,6 +121,7 @@ p {
     .github-profile {
         margin-top: 16px;
     }
+    /* Poprawka: badge klimatyczny zawsze mieści się w kontenerze na mobile */
     .climate-badge-wrapper {
         width: 100%;
         max-width: 100%;
