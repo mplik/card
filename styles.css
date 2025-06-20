@@ -69,6 +69,22 @@ p {
     background-color: #0056b3;
 }
 
+.profile-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007BFF;
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 16px 6px;
