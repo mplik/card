@@ -122,13 +122,14 @@ p {
         margin-top: 16px;
     }
     .climate-badge-wrapper {
-        max-width: 98vw;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
     .climate-badge-wrapper iframe {
-        width: 98vw;
+        width: 100%;
         min-width: 120px;
-        max-width: 98vw;
+        max-width: 100%;
     }
 }
